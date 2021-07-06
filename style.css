@@ -1,5 +1,5 @@
 
-*{ margin:0; padding:0}
+*{margin:0;  padding:0}
 
 
 /*   Navbar   */
@@ -9,11 +9,10 @@
 }
 .navbar-left{float:left;
              width: 25%;
-             margin-left: 30px;
 }
-.navbar-left img{height: 70px;
+.navbar-left img{height: 75px;
                  width: auto;
-                 margin-top: 10px;
+                 margin: 10px 0px 0px 100px;
 }
 .navbar-right{float:right;
               width: 70%;
@@ -37,5 +36,155 @@
                      border-radius: 5px;
 }
 .navbar-right ul li a:hover{background-color:rgb(41, 214, 156);
-    
 }
+
+
+
+   /* Container Part */
+
+ .container{width: 100%;
+            height: 480px;
+            background-color: #fff;
+            margin-top: 50px;
+ }
+ .container-left{float:left;
+                width: 50%; 
+                margin-top:100px;
+                padding-left: 8%;
+}
+.diet{font-size: 45px;
+      font-family: arial;
+}
+#diet-1{color:rgb(216, 146, 15);
+}
+
+.eat{font-size: 35px;
+    margin-top: 20px;
+    font-family: Arial;
+}
+#just-eat{color:rgb(216, 146, 15);
+          font-size: 40px;
+}
+.bio{width: 500px;
+    color:gray;
+    font-size:16px;
+    margin-top: 50px;
+}
+.baton{width:150px ;
+      color: #fff;
+      background-image: linear-gradient(orange, tomato);
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      border:none;
+}
+
+
+.container-right{float:right;
+                 width: 40%;
+                 margin-top: 20px;
+
+}
+.container-right img{height: 380px;
+                    width: auto;
+                    border-radius: 200px;
+}
+
+
+
+
+     /*  Container Bottom */
+
+     .container-bottom{
+                       margin:150px 0px;
+                      display: block;
+     }
+     .container-bottom-left{float:left;
+                             width: 40%;
+     }
+     .container-bottom-left img{height: 300px;
+                               width: auto;
+                               float: right;
+     }
+     .container-bottom-right{float: right;
+                           width: 40%;
+                          
+     }
+     #about{font-size: 40px;
+        font-family: arial;    
+
+     }
+     
+     .my-bio{ width: 500px;
+        color: grey;
+        margin-top: 50px ;
+        font-size: 16px;  
+     }
+
+     #mr-patlu{color:orange}
+
+     .btn{width:150px ;
+        color: #fff;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px;
+        margin: 20px 300px 0px 0px;
+        font-size: 18px;
+        border-radius: 5px;
+        border:none;
+     }
+
+
+
+     /*  Midpart  */
+
+.midpart{background-color:#fff;
+        clear:both;
+        width:100%;
+        height: 750px;
+}
+
+.midpart-up{ 
+   padding: 100px 0px 0px 80px;
+}
+.recipie{font-size: 40px;
+   font-family: arial;   
+}
+
+.recipies-bio{color:gray;
+              width:800px;
+              margin:20px 0px 80px;
+              font-size: 18px;
+}
+
+
+
+.midpart-bottom{text-align: center;
+               margin-top:50px;
+}
+.midpart-food{display: inline-block;
+              background-color:#fff;
+              border-radius: 20px;
+              margin-right: 50px;
+              box-shadow: 20px 10px  50px rgb(102, 96, 96);
+              height:380px ;
+              width:280px ;
+}
+
+
+#image{height: 200px;
+      width: 220px; 
+      padding:20px;
+      border-radius: 35px;                  
+}
+
+.recipie-title{font-size: 30px; 
+              font-family: arial;              
+}
+
+.added{width:200px;
+       margin:15px 0px 0px 30px;  
+       color:gray;
+}
+
+
